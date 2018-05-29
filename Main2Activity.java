@@ -25,7 +25,8 @@ public class Main2Activity extends Activity implements ScreenLockView.ResponseIn
         setContentView(R.layout.activity_main2);
         mUnLockView = (ScreenLockView) findViewById(R.id.unlockview);
         mUnLockView.setmRightPsw("14789");
-        SharedPreferences sp = getSharedPreferences("SHG",MODE_PRIVATE)
+        SharedPreferences sp = getSharedPreferences("SHG",MODE_PRIVATE);
+        //
 
     }
 
