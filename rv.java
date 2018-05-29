@@ -51,6 +51,7 @@ public class rv extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     public void setData(List<String> title, List<String> content, boolean isShowRefundView, boolean isShowRedpacketView) {
+       //
         this.title = title;
         this.content = content;
         this.isShowRefundView = isShowRefundView;
