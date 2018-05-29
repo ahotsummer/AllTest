@@ -26,6 +26,7 @@ public class CommonDialog extends Dialog {
     interface DialogBtnClickListener{
         void onLeftClicked();
         void onRightClicked();
+        //hihi
     }
 
     public CommonDialog(@NonNull Context context) {
@@ -46,6 +47,5 @@ public class CommonDialog extends Dialog {
     public void initEvent(){
 
     }
-    wh
 
 }
