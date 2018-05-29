@@ -16,9 +16,7 @@ import android.view.View;
  * TODO: document your custom view class.
  */
 public class ScreenLockView extends View {
-    //gaigia
     public static final String TAG = "ScreenLockView";
-    //gaigai
     private static final int WIDTH = 800;
     private static final int HEIGHT = 800;
     private static int SMALL_RADIUS = 30;
@@ -283,6 +281,7 @@ public class ScreenLockView extends View {
     }
 
     static class Circle {
+        //改了
         //cherry-pick
         private int x;
         private int y;
