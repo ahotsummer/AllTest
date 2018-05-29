@@ -281,7 +281,7 @@ public class ScreenLockView extends View {
     }
 
     static class Circle {
-        //改了
+        //改了someone
         //cherry-pick
         //bug cherry-pick
         private int x;
