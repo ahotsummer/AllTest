@@ -41,8 +41,6 @@ public class ViewUitl {
         return (int)(pxValue/scale+0.5f);
 
     }
-    //123
-    //222
-    //333
+
 
 }
