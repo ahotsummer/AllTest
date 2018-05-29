@@ -27,6 +27,7 @@ public class Main2Activity extends Activity implements ScreenLockView.ResponseIn
         mUnLockView.setmRightPsw("14789");
         SharedPreferences sp = getSharedPreferences("SHG",MODE_PRIVATE);
         //
+        //ghjk
 
     }
 
