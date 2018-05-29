@@ -47,5 +47,6 @@ public class CommonDialog extends Dialog {
     public void initEvent(){
 
     }
+    wh
 
 }
