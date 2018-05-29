@@ -16,6 +16,7 @@ import android.view.View;
  * TODO: document your custom view class.
  */
 public class ScreenLockView extends View {
+    //rebasehhh
     //别人动力文件
     //gaigia
     public static final String TAG = "ScreenLockView";
