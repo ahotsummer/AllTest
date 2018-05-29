@@ -27,18 +27,8 @@ public class Main2Activity extends Activity implements ScreenLockView.ResponseIn
         mUnLockView.setmRightPsw("14789");
         SharedPreferences sp = getSharedPreferences("SHG",MODE_PRIVATE)
 
-
     }
 
-    private void setPaint() {
-        mPaint = new Paint();
-        mPaint.setAntiAlias(true);
-        mPaint.setDither(true);
-        mPaint.setColor(mProgressColor);
-        mPaint.setStyle(Paint.Style.STROKE);
-        mPaint.setStrokeWidth(mProgressWidth);
-        mPaint.setStrokeCap(Paint.Cap.ROUND);
-    }
 
     @Override
     public void inputOK() {
@@ -65,63 +55,5 @@ public class Main2Activity extends Activity implements ScreenLockView.ResponseIn
     public void onPageScrollStateChanged(int state) {
 
     }
-
-    private static class TimelineHandler extends Handler {
-        private WeakReference<Activity> ref;
-
-        public TimelineHandler(Activity context) {
-            ref = new WeakReference<Activity>(context);
-        }
-
-        @Override
-        public void handleMessage(Message msg) {
-            final Activity context = ref.get();
-         //   if (context == null || context.isDetached()) return;//fragment
-            if (context == null || context.isFinishing()) {
-                return;
-            }
-            switch (msg.what) {
-                    case :
-
-                break;
-                    case :
-
-                break;
-
-            }
-            super.handleMessage(msg);
-        }
-    }
-
-    private TimelineHandler handler = new TimelineHandler(this);
-
-    private static class TimelineHandler extends Handler {
-        private WeakReference<Activity> ref;
-
-        public TimelineHandler(Activity context) {
-            ref = new WeakReference<Activity>(context);
-        }
-
-        @Override
-        public void handleMessage(Message msg) {
-            final Activity context = ref.get();
-            //   if (context == null || context.isDetached()) return;//fragment
-            if (context == null || context.isFinishing()) {
-                return;
-            }
-            switch (msg.what) {
-                    case :
-
-                break;
-                    case :
-
-                break;
-
-            }
-            super.handleMessage(msg);
-        }
-    }
-
-    private TimelineHandler handler = new TimelineHandler(this);
 
 }
