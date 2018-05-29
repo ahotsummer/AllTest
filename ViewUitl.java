@@ -8,7 +8,6 @@ import android.view.View.MeasureSpec;
 
 public class ViewUitl {
 
-    //bug
 
     public static int getSize(int SizeInfoMeasureSpec,int limitSize){
 
