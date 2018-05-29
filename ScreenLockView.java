@@ -18,7 +18,9 @@ import android.view.View;
 public class ScreenLockView extends View {
     //rebasehhh
     //别人动力文件
+    //gaigia
     public static final String TAG = "ScreenLockView";
+    //gaigai
     private static final int WIDTH = 800;
     private static final int HEIGHT = 800;
     private static int SMALL_RADIUS = 30;
@@ -283,8 +285,7 @@ public class ScreenLockView extends View {
     }
 
     static class Circle {
-        //改了someone
-        //cherry-pick
+        //bug cherry-pick
         private int x;
         private int y;
         private int innderRadius;
